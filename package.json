@@ -1,0 +1,13 @@
+{
+    "name": "hexo-react-filter",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "babel src --out-dir dist && babel ../../source/_components/src --out-dir ../../source/_components/assets --config-file ./.babelrc"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-jsx": "^7.23.3",
+        "@babel/preset-env": "^7.24.0",
+        "@babel/preset-react": "^7.23.3"
+    }
+}
