@@ -50,9 +50,10 @@ Now you can use `hexo g & hexo s` to get the site.
 
 You can also integrate the build of `hexo-react-filter` before `hexo g` by adding a small script.
 
-Please note for the `<React {props}>` in post:
-    - the props should NOT contain nested braces
-    - "component" is REQUIRED in props.
+**Please note** for the `<React {props}>` in post:
+
+- the props should NOT contain nested braces
+- "component" is REQUIRED in props.
 
 ## License
 This software is free to use under the MIT license.
